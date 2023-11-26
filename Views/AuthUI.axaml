@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VDC.Views.AuthUI"
+        Padding="10">
+
+    <StackPanel>
+        <TextBlock Text="Login" FontWeight="Bold" FontSize="16"/>
+        
+        <TextBox Name="UsernameTextBox" Watermark="Username" Margin="0,5,0,0"/>
+
+		<TextBox PasswordChar="*" Watermark="Placeholder" Margin="0,5,0,0"/>        
+        <Button Content="Login" Margin="0,5,0,0"/>
+    </StackPanel>
+</Window>
